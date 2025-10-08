@@ -1,0 +1,8 @@
+To compile the program, type the following on the terminal then hit enter: 
+clang++ *.cpp -o airport-simulator -std=c++11
+
+To run the program, type the following on the terminal then hit enter: 
+./airport-simulator [filename] [number of runways(must be a positive integer)]
+
+An example of commandline arguments to run the program:
+./airport-simulator test.txt 1
